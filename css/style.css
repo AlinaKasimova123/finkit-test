@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.container {
+    margin: 0px 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.image{
+    width: 450px;
+    height: 430px;
+}
+.image_con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex: 1 1 250px; */
+    
+}
+
+.header {
+    background-color: #CBECFF;
+    background-size: cover;
+}
+
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.nav-item {
+    color: #29374E;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin-right: 25px;
+}
+
+.nav-item-ru {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #0962E8;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.header-down {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+} 
+
+.header-title {
+    color: #29374E;
+    text-align: left;
+    float: left;
+    display: flex;
+    font-size: 22px;
+    flex-flow: column;
+    align-items: start;
+    flex: 1 1 250px;
+}
+
+
+.header-button {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    background: #0962E8;
+    border-radius: 8px;
+    padding: 14px 28px;
+    margin-top: 38px;
+    text-decoration: none;
+}
+.finkit{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fin{
+    font-size: 64px;
+    margin-right: 10px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #29374E;
+}
+.kit{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.006em;
+    color: #0962E8;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 118px;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: -60px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: right;
+    background: #EFF9FF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    height: 20px;
+}
+
+.card-image i,
+.advantage-image i {
+    color: #0962e8;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #29374E;
+    margin: 20px;
+}
+
+.products-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 114px;
+}
+.products{
+    margin-top: 115px;
+}
+
+.product {
+    width: 502px;
+    height: 328px;
+    left: 208px;
+    top: 963px;
+    background: #E9F6FF;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.product-image {
+    display: flex;
+    justify-content: right;
+    /* background: #EFF9FF; */
+    /* height: 20px; */
+}
+
+.product-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #29374E;
+    margin: 20px;
+}
+
+.product-img {
+    width: 218px;
+    height: 316px;
+    left: 459px;
+    top: 1000px;
+    /* filter: drop-shadow(8px -8px 16px rgba(0, 0, 0, 0.06)); */
+    border-radius: 20px 20px 0px 0px;
+}
+
+.product-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #29374E;
+    margin-bottom: 44px     ;
+}
+
+.info {
+    background-size: cover;
+}
+
+.info-down {
+    display: flex;
+    
+    flex-wrap: nowrap;
+    align-items: center;
+} 
+
+.info-title {
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E2837;
+    text-align: left;
+    float: left;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    flex: 1 1 450px;
+}
+
+
+.info-button {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    background: #0962E8;
+    border-radius: 8px;
+    padding: 14px 28px;
+    margin-top: 38px;
+    text-decoration: none;
+}
+
+.advantages-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.advantages{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantage {
+    width: 250px;
+    height: 118px;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+
+.advantage-image {
+    display: flex;
+    justify-content: left;
+    background: #EFF9FF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    height: 20px;
+}
+
+.advantage-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #29374E;
+    margin: 20px;
+}
+
+.advantage-img {
+    width: 20px;
+    height: 20px;
+}
+.container_adv {
+    margin: 0px 0px;
+    flex-direction: column;
+}
+.title1{
+    font-weight: 500;
+    font-size: 38px;
+    color:#0962E8;
+    margin: 0px;
+}
+.title2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0px;
+}
+.cards{
+    flex-direction: row;
+    display: flex;
+}
+
+@media (width <= 375px){
+    .cards-holder{
+        flex-direction:row;
+    }
+    .cards{
+        flex-direction: column;
+    
+    }
+    .header{
+        padding-bottom: 410px;
+    }
+    .card{
+        margin-top: -245px;
+        width: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .products-holder{
+        flex-direction: column;
+    }
+    .product{
+        width: 340px;
+        height: 215px;
+        margin-bottom: 16px
+    }
+    .product-img{
+        width: 142px;
+        height: 190px;
+    }
+    .container{
+        margin-left: 16px;
+        margin-right: 15px;
+    }
+    .info-down{
+        flex-direction: column;
+    }
+    .advantage{
+        width: 164px;
+        height: 118px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .advantage-text{
+        font-size: 14px;
+    }
+}
+
+
+
