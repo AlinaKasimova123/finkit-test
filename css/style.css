@@ -367,5 +367,24 @@ body {
     }
 }
 
+@media (width >= 1056px){
+    .header-title {
+		margin-left: 235px;
+	}
+	.image {
+		margin-right: 235px;
+	}
+	.cards-holder {
+		margin-left: 235px;
+		margin-right: 235px;
+	}
+	.info-title {
+		margin-left: 235px;
+	}
+	.advantages-holder {
+		margin-right: 235px;
+	}
+}
+
 
 
